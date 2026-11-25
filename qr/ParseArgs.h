@@ -21,7 +21,7 @@ namespace QRAppArgs
         int scalingFactor{8};
         int mask{-1};
         std::string input{};
-        std::string output{"qr.ppm"};
-        std::string outputExt{".ppm"};
+        std::string output{"qr.png"};
+        std::string outputExt{".png"};
     };
 }
