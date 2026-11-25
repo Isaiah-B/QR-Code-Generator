@@ -85,11 +85,11 @@ namespace QRAppArgs
                 if (!outputPath.has_extension()) {
                     throw po::validation_error(po::validation_error::invalid_option_value, "output-file");
                 }
-                if (!validExtensions.contains(outputPath.extension())) {
+                if (!validExtensions.contains(outputPath.extension().string())) {
                     throw po::validation_error(po::validation_error::invalid_option_value, "output-file");
                 }
 
-                outputExt = outputPath.extension();
+                outputExt = outputPath.extension().string();
             }
         }
         catch (po::error& e) {
