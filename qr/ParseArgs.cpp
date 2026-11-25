@@ -1,6 +1,5 @@
 #include "ParseArgs.h"
 
-#include <getopt.h>
 #include <iomanip>
 #include <filesystem>
 #include <boost/program_options.hpp>
