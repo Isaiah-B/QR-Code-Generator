@@ -10,7 +10,7 @@ using namespace polynomial;
 
 namespace qrEc
 {
-    extern const std::vector<int> ERROR_CODEWORD_COUNTS;
+    extern const std::array<int, 160> ERROR_CODEWORD_COUNTS;
 
     std::vector<std::vector<std::byte>> SubdivideCodewords(const std::vector<std::byte>& codewords,
                                                             int version,
